@@ -1,6 +1,7 @@
 
-value = 5
+value = float(input("please enter a number. \n")
 if value < 0 :
-        print(value * -1)
-else 
-        print(value * 1)
+        value *=-1
+        print("absolute value ", value)
+value = float(input("please enter a number \n"))
+        print("absolute value:", abs(value))
