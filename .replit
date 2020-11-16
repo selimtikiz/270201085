@@ -1,2 +1,2 @@
 language = "python3"
-run = "python lab4/sum_of_list.py"
+run = "python lab5/multiplication_table.py"
