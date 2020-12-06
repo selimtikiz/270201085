@@ -1,14 +1,15 @@
-password= "abc123"
+static_password = "abc123"
 
-giris=str(input("enter the password"))
-if(password==giris):
-  print("login is successful")
-else:
-  while(password!=giris):
-    giris=str(input("enter the password again"))
-    if(giris=="help"):
-      print("a")
+while True:
+    password = input("enter the password")
+    if password == "help":
+        print(static_password[0])
+
+    elif password == static_password:
+        print("welcome")
+        break
     else:
-      print("wrong password")
-print("login successfully")
+        print("wrong")
+
+
 
