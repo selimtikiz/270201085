@@ -1,41 +1,15 @@
-email = input("Please enter an email address:")
-
-
-
-ref_mail = "ceng113@example.com"
-
-
-
-if "@" in email:
-
-  email = email.lower()
-
-  part_1 = email.split("@")[0]
-
-  part_1 = part_1.replace(".", "")
-
-  part_2 = email.split("@")[1]
-
-  email = part_1 + "@" + part_2
-
-
-
-  print(email)
-
-
-
-if email == ref_mail:
-
-
-
-    print("Equal")
-
-
-
-else:
-
-
-
-      print("Not equal")
-
-  
+e_mail = input("enter an e-mail")
+static_mail = "ceng113@example.com"
+while True:
+    e_mail_1 = e_mail.split("@")
+    e_mail_1_0 = e_mail_1[0]
+    e_mail_1_1 = e_mail_1[1]
+    e_mail_1_0 = e_mail_1_0.replace(".","").lower()
+    e_mail_1_1 = e_mail_1_1.lower()
+    new_e_mail=(f"{e_mail_1_0}"+"@"+f"{e_mail_1_1}")
+    if new_e_mail != static_mail:
+        print(new_e_mail)
+        e_mail = input("enter an e-mail again")
+    else:
+        print("correct")
+        break
