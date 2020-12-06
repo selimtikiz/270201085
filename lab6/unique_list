@@ -1,0 +1,9 @@
+lst1=[]
+length_of_lst = int(input("enter length of list"))
+for i in range(0,length_of_lst):
+    new_element= input("enter numbers of list")
+    lst1.append(new_element)
+print(lst1)
+my_set=set(lst1)
+lst2=list(my_set)
+print(lst2)
