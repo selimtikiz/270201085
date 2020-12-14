@@ -1,2 +1,2 @@
 language = "python3"
-run = "python lab8/sum_of_a_list_with_function.py"
+run = "python lab8/prime_numbers.py"
