@@ -12,4 +12,4 @@ def print_primes_between(n,m):
             print(x)
 first = int(input("Enter the first number"))
 last = int(input(("Enter the last number")))
-print_primes_between((first,last))
+print_primes_between(first,last)
