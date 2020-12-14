@@ -1,2 +1,2 @@
 language = "python3"
-run = "python lab8/prime_numbers.py"
+run = "python lab8/over_lap.py"
