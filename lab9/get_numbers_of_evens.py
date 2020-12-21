@@ -1,10 +1,14 @@
-ls = [0,1,2,3,4,5]
+def get_evens(l):
+  return _get_evens_recursive(l,0)
 
-def get_number_of_evens():
-    v=0
-    for i in range(0,len(ls)):
-        if ls[i]%2 == 0:
-            v+=1
-    print(v)
+def _get_evens_recursive(l,c=0):
+    if len(l) == 0:
+      return c
 
-get_number_of_evens()
+    current = l.pop()
+    if current > 0 and current % 2 == 0 :
+      c += 1
+
+    return _get_evens_recursive(1,c)
+
+print(get_evens([0,1,2,3,4,5,6]))
