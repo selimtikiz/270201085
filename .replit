@@ -1,2 +1,2 @@
 language = "python3"
-run = "python lab8/over_lap.py"
+run = "python lab9/harmonic_sum.py"
