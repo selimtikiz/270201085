@@ -1,2 +1,2 @@
 language = "python3"
-run = "python lab9/reverse_list.py"
+run = "python lab9/get_numbers_of_evens.py"
