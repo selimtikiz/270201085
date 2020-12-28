@@ -1,2 +1,2 @@
 language = "python3"
-run = "python labs10/basic_multiplication.py"
+run = "python labs10/hailstone.py"
