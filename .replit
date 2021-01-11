@@ -1,2 +1,2 @@
 language = "python3"
-run = "python labs10/sum_of_a_list.py"
+run = "python labs11/cylinder.py"
