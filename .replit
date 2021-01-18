@@ -1,2 +1,2 @@
 language = "python3"
-run = "python labs12/selection_sort.py"
+run = "python labs12/binary_search_index.py"
